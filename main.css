@@ -1,0 +1,168 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+ul{
+  list-style: none;
+}
+
+span{
+  color: #fff;
+}
+
+.nav li {
+  display: inline;
+}
+
+.project {
+    background-color: #1499D3;
+}
+
+.project h2{
+    color: #393c3d;
+
+}
+
+.project p{
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.calendar {
+    margin: 0 25% 0 25%;
+}
+
+iframe{
+    max-height: 40em;
+    max-width: 50em;
+}
+
+.main-page {
+  margin-bottom: -30px;
+}
+
+.about{
+  background-color: #4D6684;
+  color: #fff;
+}
+
+.work
+{
+  background-color: #009966;
+    text-align: center;
+}
+
+.contact{
+  color: #0099ff;
+}
+
+.profile-social-icons {
+  color: white;
+}
+
+.footer {
+  background-color: #1499D3;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.jumbotron {
+  background-image:url('HKUST.jpg');
+    background-position: 0px 0px;
+  height: 656px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+.jumbotron .heading 
+{
+  color: #fff;
+  font-size: 3.5em;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-align: center;
+    margin-top: .2em;
+}
+
+@media (min-width: @screen-sm-min){
+    .jumbotron .heading {
+      color: #fff;
+      font-size: 2.5em;  
+      font-family: 'Shift', sans-serif;
+      font-weight: bold;
+      text-align: center;
+    }
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+.jumbotron ul
+{
+    list-style: none;
+}
+.jumbotron .container
+{
+    text-align: center;
+}
+.buttons
+{
+    margin-top: 2em;
+}
+.buttons li
+{
+    display: inline;
+}
+.ghost
+{
+    background-color: transparent;
+    /* text styles */
+    font-family:  Verdana, Segoe, sans-serif;
+    letter-spacing: .05em;
+    text-decoration: none;
+    text-transform:uppercase;
+    text-rendering:optimizeLegibility;
+    /* add a border */
+    border:0.1em solid #fff;
+    font-size: 1em;
+    color: white;
+    
+}
+.ghostsbtn
+{
+  color: #fff;
+}
+
+.anchor{
+    padding-top: 61px;
+    margin-top: -41px;
+}
+
+.thumbnail{
+    height: 500px;
+}
+
+.content {
+    padding: 1em;
+}
