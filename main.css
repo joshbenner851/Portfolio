@@ -159,10 +159,26 @@ iframe{
     margin-top: -41px;
 }
 
-.thumbnail{
-    height: 500px;
-}
-
 .content {
     padding: 1em;
+}
+
+.software-entry .entry-badge {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    z-index: 1;
+    width: 123px;
+    text-indent: -9999px;
+}
+
+.software-entry .entry-badge img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.thumbnail{
+    height: 500px;
+    position: relative;
 }
